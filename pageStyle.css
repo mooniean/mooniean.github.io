@@ -24,13 +24,18 @@ img {
   max-width: 100%;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .footer {
 	background-color: #333;
 	padding: 10px;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
-  	text-align: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .topnav {
@@ -73,11 +78,15 @@ img {
 /* Left and right column */
 .column.side{
   width: 10%;
+  padding:10px;
 }
 
 /* Middle column */
 .column.middle {
   width: 70%;
+  padding:10px;
+  padding-bottom: 50px;
+  margin: 20px;
 }
 
 /* Clear floats after the columns */
