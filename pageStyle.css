@@ -235,3 +235,24 @@ font-size: 16px;
 /*cinzento: 191,191,191
 azul:89, 146, 217
 laranja: 247, 150, 70*/
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #111; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222; 
+}
