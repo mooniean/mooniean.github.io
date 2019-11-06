@@ -22,7 +22,26 @@ img {
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.profile {
   border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+    text-align: center;
+    font-size: 40px;
+    cursor: not-allowed;
+}
+
+.column.side:hover .visible
+{
+    display: none;
+}
+
+.column.side:hover .hidden {
+    display: block;
 }
 
 video {
