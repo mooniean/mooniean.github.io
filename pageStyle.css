@@ -256,3 +256,7 @@ laranja: 247, 150, 70*/
 ::-webkit-scrollbar-thumb:hover {
   background: #222; 
 }
+
+td {
+  text-align: center;
+}
