@@ -29,19 +29,19 @@ img {
 }
 
 .hidden {
-    display: none;
-    text-align: center;
-    font-size: 40px;
-    cursor: not-allowed;
+  display: none;
+  text-align: center;
+  font-size: 40px;
+  cursor: not-allowed;
 }
 
 .column.side:hover .visible
 {
-    display: none;
+  display: none;
 }
 
 .column.side:hover .hidden {
-    display: block;
+  display: block;
 }
 
 video {
@@ -142,24 +142,25 @@ p {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  /*padding: 10px;*/
 }
 
 /* Left and right column */
-.column.side{
+.column.side.left{
   width: 10%;
-  /*padding:10px;*/
+}
+
+.column.side.right{
+  width: 15%;
 }
 
 /* Middle column */
 .column.middle {
   width: 70%;
-/*  padding:10px;
-padding-bottom: 50px;*/
-margin: 20px;
-line-height: 30px;
-font-size: 16px;
+  margin: 20px;
+  line-height: 30px;
+  font-size: 16px;
 }
+
 
 
 .container{
@@ -187,13 +188,17 @@ font-size: 16px;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+  .column.side.left, .column.middle,.column.side.right {
     width: 100%;
   }
   img{
     border-radius: 0;
   }
+  table{
+    width:100%;
+  }
 }
+
 
 
 .fab, .fa-envelope {
@@ -246,7 +251,7 @@ laranja: 247, 150, 70*/
 ::-webkit-scrollbar-track {
   background: #333; 
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #111; 
@@ -259,4 +264,11 @@ laranja: 247, 150, 70*/
 
 td {
   text-align: center;
+}
+
+
+#twitter-widget-holder {  
+  max-width:100%; 
+  padding:20px; 
+  border-radius:3px; 
 }
