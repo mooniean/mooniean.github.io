@@ -262,8 +262,9 @@ laranja: 247, 150, 70*/
   background: #222; 
 }
 
-td {
+td, th {
   text-align: center;
+  padding:20px;
 }
 
 
